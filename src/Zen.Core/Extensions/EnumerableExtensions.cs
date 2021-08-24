@@ -1,7 +1,14 @@
-namespace Zen.Core.Extensions
+using System.Linq;
+
+namespace System.Collections.Generic
 {
-    public class EnumerableExtensions
+    public static class EnumerableExtensions
     {
-        
+        public static bool IsNullOrEmpty<T>(this IEnumerable<T> enumerable)
+        {
+            if(enumerable is null)
+                return true;
+            return !enumerable.Any();
+        }
     }
 }
