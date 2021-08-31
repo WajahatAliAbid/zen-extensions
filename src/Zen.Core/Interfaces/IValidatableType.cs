@@ -1,11 +1,11 @@
 namespace System
 {
-    public interface IValidatable
+    public interface IValidatableType
     {
         void Validate();
     }
 
-    public interface IValidatable<in T>
+    public interface IValidatableType<in T>
     {
         void Validate(T input1);
     }
