@@ -18,7 +18,7 @@ namespace System.Collections.Generic
         {
             if (enumerable is null)
                 return true;
-            return !enumerable.Any();
+            return enumerable.IsEmpty();
         }
 
         /// <summary>
