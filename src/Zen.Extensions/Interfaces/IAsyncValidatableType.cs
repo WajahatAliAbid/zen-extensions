@@ -6,4 +6,9 @@ namespace System
     {
         ValueTask ValidateAsync();
     }
+
+    public interface IAsyncValidatable<in T>
+    {
+        ValueTask ValidateAsync(T input);
+    }
 }
