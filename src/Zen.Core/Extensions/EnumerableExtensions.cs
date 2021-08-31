@@ -5,9 +5,18 @@ namespace System.Collections.Generic
 {
     public static class EnumerableExtensions
     {
+        public static bool IsEmpty<T>([NotNull] this IEnumerable<T> enumerable)
+        {
+            if (enumerable is null)
+            {
+                throw new ArgumentNullException(nameof(enumerable));
+            }
+
+            return !enumerable.Any();
+        }
         public static bool IsNullOrEmpty<T>(this IEnumerable<T> enumerable)
         {
-            if(enumerable is null)
+            if (enumerable is null)
                 return true;
             return !enumerable.Any();
         }
@@ -133,9 +142,9 @@ namespace System.Collections.Generic
         /// <exception cref="ArgumentNullException"/>
         public static void AddIfNotContains<T>([NotNull] this List<T> list, T item)
         {
-            if(list is null)
+            if (list is null)
                 throw new ArgumentNullException(nameof(list));
-            if(item is null)
+            if (item is null)
                 return;
             if (!list.Contains(item))
             {
