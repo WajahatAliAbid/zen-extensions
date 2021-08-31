@@ -7,6 +7,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{090CC35E-E3F
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zen.Extensions", "src\Zen.Extensions\Zen.Extensions.csproj", "{B193DDA2-4596-4984-909D-B8084C74CB29}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{AADD26B4-924A-4BED-B5B2-FC9E07702C79}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zen.Extensions.Tests", "tests\Zen.Extensions.Tests\Zen.Extensions.Tests.csproj", "{9683ACC0-2139-4E40-86C6-73F9117BD089}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -32,8 +36,21 @@ Global
 		{B193DDA2-4596-4984-909D-B8084C74CB29}.Release|x64.Build.0 = Release|Any CPU
 		{B193DDA2-4596-4984-909D-B8084C74CB29}.Release|x86.ActiveCfg = Release|Any CPU
 		{B193DDA2-4596-4984-909D-B8084C74CB29}.Release|x86.Build.0 = Release|Any CPU
+		{9683ACC0-2139-4E40-86C6-73F9117BD089}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9683ACC0-2139-4E40-86C6-73F9117BD089}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9683ACC0-2139-4E40-86C6-73F9117BD089}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{9683ACC0-2139-4E40-86C6-73F9117BD089}.Debug|x64.Build.0 = Debug|Any CPU
+		{9683ACC0-2139-4E40-86C6-73F9117BD089}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{9683ACC0-2139-4E40-86C6-73F9117BD089}.Debug|x86.Build.0 = Debug|Any CPU
+		{9683ACC0-2139-4E40-86C6-73F9117BD089}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9683ACC0-2139-4E40-86C6-73F9117BD089}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9683ACC0-2139-4E40-86C6-73F9117BD089}.Release|x64.ActiveCfg = Release|Any CPU
+		{9683ACC0-2139-4E40-86C6-73F9117BD089}.Release|x64.Build.0 = Release|Any CPU
+		{9683ACC0-2139-4E40-86C6-73F9117BD089}.Release|x86.ActiveCfg = Release|Any CPU
+		{9683ACC0-2139-4E40-86C6-73F9117BD089}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{B193DDA2-4596-4984-909D-B8084C74CB29} = {090CC35E-E3F4-4E1C-9C64-179635CB2C2F}
+		{9683ACC0-2139-4E40-86C6-73F9117BD089} = {AADD26B4-924A-4BED-B5B2-FC9E07702C79}
 	EndGlobalSection
 EndGlobal

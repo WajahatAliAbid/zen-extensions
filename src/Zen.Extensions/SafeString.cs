@@ -10,8 +10,13 @@ public class SafeString
         Value = value;
     }
 
-    public static implicit operator string(SafeString value)
+    public static implicit operator string(SafeString safeString)
     {
-        return value;
+        return safeString.Value;
     } 
+
+    public override string ToString()
+    {
+        return Value;
+    }
 }
