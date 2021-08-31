@@ -30,5 +30,26 @@ namespace System.Collections.Generic
                 return dict[key];
             return defaultValue;
         }
+
+        public static bool TryRemoveValue<K,V>([NotNull] this IDictionary<K, V> dict, K key)
+        {
+            if(dict.ContainsKey(key))
+            {
+                dict.Remove(key);
+                return true;
+            }
+            return false;
+        }
+
+        public static bool TryRemoveValue<K,V>([NotNull] this IDictionary<K, V> dict, K key, out V value)
+        {
+            if(dict.ContainsKey(key))
+            {
+                dict.Remove(key, out value);
+                return true;
+            }
+            value = default;
+            return false;
+        }
     }
 }
