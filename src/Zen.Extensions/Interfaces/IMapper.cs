@@ -1,6 +1,4 @@
-using System;
-
-namespace Zen.Core.Interfaces
+namespace System
 {
     public interface IMapper<out TResult>
     {

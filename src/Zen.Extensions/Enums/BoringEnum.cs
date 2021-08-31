@@ -1,4 +1,4 @@
-namespace Zen.Core.Enums
+namespace System
 {
     public enum BoringEnum
     {

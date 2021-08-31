@@ -1,9 +1,8 @@
 using System;
-using System.IO;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Zen.Core.Extensions
+namespace System.IO
 {
     public static class StreamExtensions
     {

@@ -1,7 +1,6 @@
-using System;
 using System.Diagnostics.CodeAnalysis;
 
-namespace Zen.Core.Exceptions
+namespace System
 {
     [Serializable]
     public class StoreException : Exception

@@ -5,7 +5,7 @@ VisualStudioVersion = 16.6.30114.105
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{090CC35E-E3F4-4E1C-9C64-179635CB2C2F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zen.Core", "src\Zen.Core\Zen.Core.csproj", "{B193DDA2-4596-4984-909D-B8084C74CB29}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zen.Extensions", "src\Zen.Extensions\Zen.Extensions.csproj", "{B193DDA2-4596-4984-909D-B8084C74CB29}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

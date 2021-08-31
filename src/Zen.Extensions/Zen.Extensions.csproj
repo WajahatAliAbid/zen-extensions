@@ -8,9 +8,9 @@
 
   <PropertyGroup>
     <Company>Wajahat Ali Abid</Company>
-    <Description>Useful classes and interfaces for use in .net projects</Description>
-    <RepositoryUrl>https://github.com/WajahatAliAbid/zen-core</RepositoryUrl>
-    <PackageId>Zen.Core</PackageId>
+    <Description>Useful classes, interfaces and extensions for use in .net projects</Description>
+    <RepositoryUrl>https://github.com/WajahatAliAbid/zen-extensions</RepositoryUrl>
+    <PackageId>Zen.Extensions</PackageId>
   </PropertyGroup>
 
   <PropertyGroup>
